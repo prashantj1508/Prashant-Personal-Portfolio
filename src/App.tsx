@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, ChevronDown, Code2, Briefcase, User2 } from 'lucide-react';
+import { ChevronDown, Code2, Briefcase, User2 } from 'lucide-react';
 import NavBar from './components/NavBar';
 import ProjectCard from './components/ProjectCard';
 import Skills from './components/Skills';
@@ -22,17 +22,6 @@ function App() {
           <p className="text-xl md:text-2xl text-gray-300 mb-8">
             Full Stack Developer & UI/UX Enthusiast
           </p>
-          <div className="flex gap-4 justify-center mb-8">
-            <a href="https://github.com" className="hover:text-blue-400 transition-colors">
-              <Github size={24} />
-            </a>
-            <a href="https://linkedin.com" className="hover:text-blue-400 transition-colors">
-              <Linkedin size={24} />
-            </a>
-            <a href="mailto:contact@example.com" className="hover:text-blue-400 transition-colors">
-              <Mail size={24} />
-            </a>
-          </div>
           <ResumeButton />
         </div>
         <ChevronDown size={32} className="absolute bottom-8 animate-bounce" />
